@@ -1,0 +1,7 @@
+/* Hack to get tables that are too big scrollable */
+table.docutils {
+  max-width: 100%;
+  overflow: auto;
+  word-break: keep-all;
+  display: inline-block;
+}
